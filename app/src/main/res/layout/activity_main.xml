@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/selectImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اختر صورة" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/processImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ترجم الآن"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/originalText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="النص الأصلي"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:background="#eee"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/translatedText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="الترجمة"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:background="#eee"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="احفظ الترجمة"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
