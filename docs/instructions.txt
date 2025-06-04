@@ -1,1 +1,10 @@
-To build this app, open it in Android Studio and run on a device.
+To build the AI Manga Translator App:
+
+1. Open Android Studio.
+2. Import the project folder.
+3. Make sure `dictionary.db` exists in assets.
+4. Replace `logo.png` with your own logo image.
+5. Connect your Android device or use emulator.
+6. Build and run.
+
+Note: Translation is editable before final image is saved.
