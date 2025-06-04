@@ -1,1 +1,0 @@
-To build this app, open it in Android Studio and run on a device.
